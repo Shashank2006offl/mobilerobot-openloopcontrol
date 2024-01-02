@@ -9,25 +9,17 @@ To develop a python control code to move the mobilerobot along the predefined pa
 
 ## Procedure
 
-Step1:
+### Step1:
+Use from robomaster import robot
+### Step2:
+Choose the x,y,z - axis movement distance(meters).
+### Step3:
+Give ep_chassis.move to move straight.
+### Step4:
+Give time.sleep() for a break.
+### Step5:
+Give ep_chassis.drive_speed to have a circular movement.
 
-<br/>
-
-Step2:
-
-<br/>
-
-Step3:
-
-<br/>
-
-Step4:
-
-<br/>
-
-Step5:
-
-<br/>
 
 ## Program
 ```
@@ -173,20 +165,9 @@ Insert image here
 ## MobileRobot Movement Video:
 
 Upload your video in Youtube and paste your video-id here
-
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
-
-<br/>
-<br/>
-<br/>
-<br/>
-
+https://youtu.be/yxVGw8Avrxk?si=gAcvbUW0tzfFxHnf
 ## Result:
 Thus the python program code is developed to move the mobilerobot in the predefined path.
-
-
-<br/>
-<br/>
 
 ```
 Mobile Robotics Laboratory
